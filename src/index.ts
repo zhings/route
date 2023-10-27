@@ -6,7 +6,11 @@ const doc = globalThis.document
 const win = doc.defaultView
 const loc = win?.location
 
-function route(path: string) {}
+function route(path: string) {
+  parse
+  inject
+  parsePath
+}
 function routeTo() {}
 function routeStart() {}
 
